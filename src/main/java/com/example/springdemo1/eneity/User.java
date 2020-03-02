@@ -4,7 +4,8 @@ package com.example.springdemo1.eneity;
 public class User {
 	private String username;
 	private String password;
-	//id略
+	//id略可再多加
+
 	public String getUsername() {
 		return username;
 	}

@@ -9,7 +9,8 @@ import com.example.springdemo1.service.userService;
 
 @Controller
 public class userController {
-	
+
+
 	@Autowired
 	private userService userService;
 	

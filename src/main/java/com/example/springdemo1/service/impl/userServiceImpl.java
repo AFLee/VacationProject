@@ -16,7 +16,7 @@ public class userServiceImpl implements userService{
 	
 	@Resource
 	private UserMapper userMapper;
-	
+
 	@Override
 	public boolean findUser(User user) {
 		User temp = userMapper.finduser(user);

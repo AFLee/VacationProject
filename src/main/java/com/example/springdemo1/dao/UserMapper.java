@@ -7,7 +7,6 @@ import com.example.springdemo1.eneity.User;
 
 @Mapper
 public interface UserMapper {
-    
 	@Select("select * from users where username = #{username} and password = #{password}")
 	User finduser(User user);
 
