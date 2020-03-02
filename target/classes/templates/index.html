@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<title>东软新校务网管理员登陆界面</title>
+	<meta charset="utf-8">
+</head>
+
+<body>
+
+<div class="login">
+	<div class="container-login100">
+		<div class="wrap-login100">
+			
+          <form th:action="@{~/login}" method="post">
+			<form class="login100-form validate-form">
+				<div>
+					<strong>管理员登陆</strong>
+					<hr/>
+					<label>用户名:</label>
+					<input  type="text" name="username" >
+					<br/>
+					<label>密&nbsp;&nbsp;&nbsp;码:</label>
+					<input  type="password" name="password" >
+					<br/>
+					<button type="submit">登录</button>
+				</div>
+			</form>
+
+		  </form>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
